@@ -18,7 +18,14 @@
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    transition: all .5s ease-in-out;
+    &:hover {
+        transform: scale(1.5);
+        z-index: 100;
+    }
+    
 }
+
 .container {
     max-width: 1600px;
     max-height: 1200px;
@@ -37,5 +44,6 @@
      top: 0;
      left: 0;
      z-index: -1;
+    
  }
 

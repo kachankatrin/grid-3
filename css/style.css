@@ -15,7 +15,11 @@
   color: white;
   display: flex;
   flex-flow: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+  transition: all .5s ease-in-out; }
+  .card:hover {
+    transform: scale(1.5);
+    z-index: 100; }
 
 .container {
   max-width: 1600px;
